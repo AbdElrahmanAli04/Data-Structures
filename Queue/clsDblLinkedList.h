@@ -13,7 +13,7 @@ template <class T> class Node {
 
 template <class T> class clsDoublyLinkedList {
     
-    private :
+    protected :
     int size_ = 0;
     Node<T>* head_ = NULL;
     Node<T>* iterator_ = NULL;

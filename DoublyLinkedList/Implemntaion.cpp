@@ -5,7 +5,7 @@ using namespace std;
 int main() {
     cout << "\n=== Doubly Linked List Operations ===\n\n";
     
-    DoublyLinkedList<int> MyList;
+    clsDoublyLinkedList<int> MyList;
     
     // 1. InsertAtBeginning
     cout << "1. InsertAtBeginning: 30, 20, 10\n";
